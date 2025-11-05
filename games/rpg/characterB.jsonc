@@ -1,4 +1,4 @@
-// Represents an individual—NPC, protagonist, or background character
+// Complex Character Stats: Represents an individual—NPC, protagonist, or background character
 {
   "id": "person_001",
   "name": "Avery Quinn",

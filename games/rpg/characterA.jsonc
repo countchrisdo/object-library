@@ -1,3 +1,4 @@
+// Basic Character Stats: Represents an individual—NPC, protagonist, or background character
 {
   "name": "Default Adventurer",
   "race": "Human",
@@ -6,7 +7,6 @@
   "inventory": ["sword_basic", "potion_small"],
   "abilities": ["slash", "block"]
 }
-
 // Link To: abilites.json
 
 //Todo: Add XP

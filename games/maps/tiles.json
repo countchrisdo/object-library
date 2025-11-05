@@ -1,0 +1,5 @@
+{
+  "grass": { "symbol": ".", "movement_cost": 1, "color": "#00aa00", "passable": true },
+  "water": { "symbol": "~", "movement_cost": 3, "color": "#0000ff", "passable": false },
+  "mountain": { "symbol": "^", "movement_cost": 4, "color": "#888888", "passable": false }
+}

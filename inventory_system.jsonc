@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "rules": {
+    "max_weight": 100.0,
+    "max_slots": 20,
+    "stack_limit": 99,
+    "allow_duplicates": true
+  },
+  "slot_types": {
+    "generic": { "allowed_categories": ["resource", "consumable", "equipment"] },
+    "equipment": { "allowed_categories": ["weapon", "armor"], "max_slots": 4 },
+    "currency": { "allowed_categories": ["currency"], "max_slots": 1 }
+  },
+  "example_inventory": {
+    "slots": [
+      { "slot_type": "generic", "item_id": "wood", "quantity": 10 },
+      { "slot_type": "generic", "item_id": "stone", "quantity": 5 },
+      { "slot_type": "equipment", "item_id": "iron_sword", "quantity": 1 },
+      { "slot_type": "currency", "item_id": "gold_coin", "quantity": 25 }
+    ],
+    "current_weight": 32.5
+  }
+}
+
+// rules: Defines the physical or logical constraints of your inventory.
+// slot_types: Lets you specialize sections (e.g. quickbar, armor, resources).
+// example_inventory: Demonstrates structure; doubles as test data.

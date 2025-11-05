@@ -1,0 +1,4 @@
+{
+  "slash": { "power": 10, "cost": 0, "type": "physical" },
+  "fireball": { "power": 20, "cost": 5, "type": "magic" }
+}

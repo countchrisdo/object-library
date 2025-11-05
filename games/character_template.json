@@ -1,0 +1,12 @@
+{
+  "name": "Default Adventurer",
+  "race": "Human",
+  "class": "Warrior",
+  "stats": { "hp": 100, "mp": 25, "strength": 10, "agility": 5, "intelligence": 4 },
+  "inventory": ["sword_basic", "potion_small"],
+  "abilities": ["slash", "block"]
+}
+
+// Link To: abilites.json
+
+//Todo: Add XP

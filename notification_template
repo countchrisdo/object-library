@@ -1,0 +1,17 @@
+{
+  "id": "notif_001",
+  "title": "Connection Lost",
+  "message": "Your connection to the server has been interrupted. Attempting to reconnect...",
+  "type": "warning",
+  "timestamp": "2025-11-05T10:25:00Z",
+  "actions": [
+    { "label": "Retry", "action_id": "action_retry_connection" },
+    { "label": "Dismiss", "action_id": "action_dismiss" }
+  ],
+  "metadata": {
+    "user_id": "user_1234",
+    "context": "network_monitor",
+    "priority": "high"
+  }
+}
+

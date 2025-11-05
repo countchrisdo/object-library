@@ -1,0 +1,14 @@
+//Represent world or system events that occur at specific times or conditions, triggering changes in state.
+{
+  "id": "event_bridge_repaired",
+  "timestamp": "2025-11-05T10:00:00Z",
+  "trigger_conditions": {
+    "quest_completed": "quest_001",
+    "location": "river_crossing"
+  },
+  "effects": [
+    { "type": "world_state_change", "target": "bridge", "new_state": "repaired" },
+    { "type": "dialogue_update", "target": "person_001", "new_dialogue": "dialogue_after_bridge" }
+  ],
+  "description": "The bridge across the river has been repaired, reopening trade routes."
+}

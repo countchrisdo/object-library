@@ -1,0 +1,14 @@
+{
+  "width": 5,
+  "height": 5,
+  "grid": [
+    ["grass","grass","water","water","mountain"],
+    ["grass","grass","grass","water","mountain"],
+    ["grass","grass","grass","grass","mountain"],
+    ["grass","water","grass","grass","grass"],
+    ["mountain","mountain","grass","grass","grass"]
+  ]
+}
+
+// Could also store metadata like biome or region
+// make a python visualizer (Or find one online)

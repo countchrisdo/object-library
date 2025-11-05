@@ -1,0 +1,24 @@
+{
+  "sword_basic": {
+    "type": "equipment",
+    "slot": "hand",
+    "attack": 5,
+    "durability": 100,
+    "value": 10
+  },
+  "potion_small": {
+    "type": "consumable",
+    "effect": "heal",
+    "magnitude": 25,
+    "value": 5
+  },
+  "gold_coin": {
+    "type": "currency",
+    "symbol": "G",
+    "stackable": true,
+    "value": 1
+  }
+}
+
+// Link to crafting or drop tables
+// Create “loot tables” referencing item IDs

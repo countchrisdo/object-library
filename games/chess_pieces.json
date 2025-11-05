@@ -1,0 +1,8 @@
+{
+  "pawn": { "symbol": "P", "moves": ["forward"], "capture": ["diagonal"], "value": 1 },
+  "knight": { "symbol": "N", "moves": ["L-shape"], "value": 3 },
+  "bishop": { "symbol": "B", "moves": ["diagonal"], "value": 3 },
+  "rook": { "symbol": "R", "moves": ["straight"], "value": 5 },
+  "queen": { "symbol": "Q", "moves": ["straight", "diagonal"], "value": 9 },
+  "king": { "symbol": "K", "moves": ["one-square-any"], "value": 1000 }
+}

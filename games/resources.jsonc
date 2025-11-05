@@ -1,0 +1,63 @@
+//Defines base materials usable across multiple systems
+{
+  "wood": {
+    "category": "organic",
+    "rarity": "common",
+    "weight_per_unit": 1.0,
+    "base_value": 2,
+    "description": "Basic building material harvested from trees.",
+    "properties": {
+      "flammable": true,
+      "renewable": true,
+      "craftable": true
+    }
+  },
+  "stone": {
+    "category": "mineral",
+    "rarity": "common",
+    "weight_per_unit": 2.5,
+    "base_value": 3,
+    "description": "Hard material used for construction and crafting.",
+    "properties": {
+      "flammable": false,
+      "renewable": false,
+      "craftable": false
+    }
+  },
+  "iron_ore": {
+    "category": "metal",
+    "rarity": "uncommon",
+    "weight_per_unit": 3.0,
+    "base_value": 6,
+    "description": "Raw ore used to smelt iron bars.",
+    "properties": {
+      "smeltable": true,
+      "flammable": false,
+      "renewable": false
+    }
+  },
+  "water": {
+    "category": "liquid",
+    "rarity": "common",
+    "weight_per_unit": 1.0,
+    "base_value": 1,
+    "description": "Essential for life, often stored in containers.",
+    "properties": {
+      "drinkable": true,
+      "renewable": true,
+      "flammable": false
+    }
+  },
+  "crystal_shard": {
+    "category": "magic",
+    "rarity": "rare",
+    "weight_per_unit": 0.5,
+    "base_value": 50,
+    "description": "A glowing fragment of unknown power.",
+    "properties": {
+      "magical": true,
+      "renewable": false,
+      "craftable": false
+    }
+  }
+}

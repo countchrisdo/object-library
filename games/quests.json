@@ -1,0 +1,21 @@
+{
+  "id": "quest_001",
+  "title": "The Broken Bridge",
+  "description": "Help the townsfolk rebuild the bridge across the river.",
+  "giver": "person_001",
+  "objectives": [
+    { "id": "obj_collect_wood", "description": "Collect 10 pieces of wood.", "required": 10, "current": 0 },
+    { "id": "obj_deliver_wood", "description": "Deliver the materials to the carpenter.", "required": 1, "current": 0 }
+  ],
+  "prerequisites": {
+    "completed_quests": ["quest_intro"],
+    "player_level": 2
+  },
+  "rewards": {
+    "xp": 150,
+    "items": ["gold_coin", "hammer"],
+    "reputation": { "City Guild": 5 }
+  },
+  "state": "available", 
+  "on_complete_events": ["event_bridge_repaired"]
+}

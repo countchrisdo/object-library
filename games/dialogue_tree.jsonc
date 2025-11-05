@@ -1,0 +1,28 @@
+// branching dialogue structure that can reference conditions, triggers, and relationships.
+{
+  "id": "dialogue_avery",
+  "start_node": "greeting",
+  "nodes": {
+    "greeting": {
+      "text": "Oh, hello there! I didn't see you come in.",
+      "responses": [
+        { "text": "Hi! What are you working on?", "next": "project" },
+        { "text": "Sorry to bother you.", "next": "farewell" }
+      ]
+    },
+    "project": {
+      "text": "Just tinkering with this old automaton. It’s acting up again.",
+      "responses": [
+        { "text": "Can I help?", "next": "accept_help" },
+        { "text": "Sounds complicated. Good luck.", "next": "farewell" }
+      ]
+    },
+    "accept_help": {
+      "text": "Really? That would be great! I could use another pair of hands.",
+      "triggers": ["quest_001_start"]
+    },
+    "farewell": {
+      "text": "Take care out there!"
+    }
+  }
+}

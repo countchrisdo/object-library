@@ -1,0 +1,26 @@
+// Represents an individual—NPC, protagonist, or background character
+{
+  "id": "person_001",
+  "name": "Avery Quinn",
+  "pronouns": "they/them",
+  "age": 29,
+  "occupation": "Engineer",
+  "affiliation": "City Guild",
+  "description": "A pragmatic inventor who values logic over superstition.",
+  "personality": {
+    "traits": ["curious", "introverted", "meticulous"],
+    "alignment": "neutral good",
+    "motivation": "create technology that improves daily life"
+  },
+  "relationships": {
+    "friend": ["person_002"],
+    "rival": ["person_005"]
+  },
+  "dialogue_profile": "dialogue_avery",
+  "stats": {
+    "charisma": 6,
+    "intelligence": 9,
+    "strength": 4,
+    "dexterity": 5
+  }
+}

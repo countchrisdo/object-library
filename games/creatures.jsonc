@@ -1,0 +1,23 @@
+{
+  "id": "creature_001",
+  "name": "Creature",
+  "type": "beast",
+  "habitat": "swamp",
+  "description": "The mysterious creature",
+  "stats": {
+    "hp": 120,
+    "attack": 15,
+    "defense": 10,
+    "speed": 6
+  },
+  "attributes": {
+    "element": "water",
+    "size": "large",
+    "rarity": "rare"
+  },
+  "behavior": {
+    "aggression_level": "high",
+    "ai_profile": "ai_mire_drake",
+    "drop_table": ["scales", "tooth", "swamp_essence"]
+  }
+}
